@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 import Homepage from "@/components/Homepage";
 import Navigation from "@/components/Navigation";
-import temp14 from "../public/bgimage.jpg";
-import Image from "next/image";
+// import temp14 from "../public/bgimage.jpg";
+// import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
 // import Nav from "@/components/Nav";
 

@@ -29,9 +29,10 @@ const AnimatedCounter = ({ start, end, suffix, duration }) => {
 
 const StatsSection = () => {
   const targets = [
-    { title: 'Customers', count: 1000, suffix: '+', id: 'starsCount' },
-    { title: 'Connections', count: 8000, suffix: '+', id: 'downloadsCount' },
-    { title: 'Sponsors', count: 100, suffix: '+', id: 'sponsorsCount' },
+    { title: 'Cities', count: 5, suffix: '+', id: 'downloadsCount' },
+    { title: 'Customers', count: 5500, suffix: '+', id: 'sponsorsCount' },
+    // { title: 'Riders',  count: 545, suffix: '+', id: 'sponsorsCount' },
+    { title: 'Downloads', count: 6500, suffix: '+', id: 'starsCount' },
   ];
 
   return (
@@ -39,10 +40,10 @@ const StatsSection = () => {
         <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl drop-shadow-lg font-extrabold leading-9 text-gray-black text-black sm:text-4xl sm:leading-10">
-              Trusted by Customers
+            Our Impact
             </h2>
-            <p className="mt-3 text-xl leading-7 text-gray-600 dark:text-gray-400 sm:mt-4">
-              This Service one of the best for you. Because we try our best to fulfill the needs of the Customers.
+            <p className="mt-3 text-xl leading-7 text-black sm:mt-4">
+            Our presence in the country has changed the concept of intra-city travel and made last-mile connectivity affordable for all.
             </p>
           </div>
         </div>

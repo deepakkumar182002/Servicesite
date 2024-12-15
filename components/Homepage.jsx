@@ -32,7 +32,7 @@ export default function Homepage() {
     }
     return (
         <>
-            <div className='flex items-center bg-fixed flex-col justify-center h-full'>
+            <div className='px-16 flex items-center bg-fixed flex-col justify-center h-full'>
                 {/* <Image src={temp14}  alt='' className='' /> */}
                 <div className='container mx-auto bg-white w-2/2 md:p-4  relative'>
                     {/* form  */}
@@ -133,40 +133,61 @@ export default function Homepage() {
 
                             </form>
                         </div> */}
-                        <span>
-                        <h1 className='md:text-5xl text-2xl font-bold mt-16 '>Agra moves on 
-                        </h1>
-                        <h1 className='text-red-400 text-[60px] font-bold mt-2 tracking-tight'>RIDEWAVES</h1>
-                        <p className='text-xl p-2   '>At <span className='font-bold text-red-400'>RIDEWAVES</span>, we believe that travel is not just a journey but an experience. With years of expertise, we curate unforgettable adventures tailored just for you.</p>
-                        <span className=' flex flex-row gap-2 mt-4'></span>
-                        <button type='button' className='px-4 py-2 bg-red-400 text-white'>Download RideWaves</button>
-                        <button type='button' className='ml-4 px-6 py-2 border-[1px] border-red-500/75 '>Sing-up For Driver</button>
+                        <span className=''>
+                            <h1 className='md:text-5xl text-2xl font-bold mt-16 text-nowrap '><span className='text-red-400 font-bold mt-2 tracking-tight text-nowrap'>RideWaves</span>: Your Travel Partner
+                            </h1>
+                            {/* <h1 className='text-red-400 text-[60px] font-bold mt-2 tracking-tight'>RIDEWAVES</h1> */}
+                            <p className='text-[21px] p-2 mt-12 text-center text-black'>&#8220;We believe that travel is not just a journey but an experience. With years of expertise, we curate unforgettable adventures tailored just for you.&#8220;</p>
+                            <span className=' flex flex-row gap-2 mt-16 justify-center'>
+                                <button type='button' className='px-10 py-2 text-xl font-bold bg-red-400 text-white'>Download RideWaves</button>
+                                <button type='button' className='ml-4 px-12 text-xl font-bold py-2 border-[1px] border-red-500/75 '>Sing-up For Driver</button>
+                            </span>
                         </span>
-                        <Image src={temp8} alt='' className='' />
+                        <span className='ml-20'>
+                            <Image src={temp8} alt='' height={400} width={600} className='' />
+                        </span>
                     </div>
                     <hr />
                     {/* <Image src={temp} alt='' className='my-2' /> */}
-                    <h2 className='text-sm md:text-4xl font-bold my-16 text-center drop-shadow-lg'>mobility ecosystem driving communities forward</h2>
-                    <div className='columns-1 md:columns-2 xl:columns-3 gap-7'>
-                        <div className=' break-inside-avoid mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp7} alt='Gallery image' />
+                    <h2 className='text-sm md:text-4xl font-bold my-16 text-center drop-shadow-lg'>The Future of Travel is Here!</h2>
+                    <div className='columns-2 md:columns-1 xl:columns-2'>
+                        <div className=' w-[600px] h-[400px]'>
+                            <Image className='h-full max-w-full rounded-lg' src={temp7} alt='Gallery image' />
                         </div>
-                        <div className=' break-inside-avoid  mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp5} alt='Gallery image' />
+                        <div className="pt-14">
+                            <p className='text-xl p-2'><span className=' font-bold text-2xl  text-red-400'>RideWaves</span> is designed to make navigating your city simple and stress-free.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Seamless Connectivity:</span>Travel between home, work, and leisure spots effortlessly.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Flexible Options: </span>Choose from economy rides, premium services, or shared commutes.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Quick & Reliable Service: </span>Our fleet and AI-driven routing ensure you’re always on time.</p>
+
+                            <span className=' flex flex-row gap-2 mt-4'></span>
                         </div>
-                        <div className=' break-inside-avoid  mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp11} alt='Gallery image' />
-                        </div>
-                        <div className=' break-inside-avoid  mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp10} alt='Gallery image' />
-                        </div>
-                        <div className=' break-inside-avoid  mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp16} alt='Gallery image' />
-                        </div>
-                        <div className=' break-inside-avoid  mb-8'>
-                            <Image className='h-auto max-w-full rounded-lg' src={temp15} alt='Gallery image' />
-                        </div>
+
                     </div>
+                    <hr />
+                    <div className='columns-2 md:columns-1 xl:columns-2'>
+
+                        <div className="pt-14">
+                            <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>  Why Choose RideWaves?</span></p>
+                            <p className='text-xl p-2'><span className='font-bold'>Real-Time Tracking:</span> Stay updated with your ride’s location.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Diverse Vehicle Choices:</span>
+                            From budget-friendly to premium, pick what suits you best.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>24/7 Availability: </span>
+                            Your reliable partner, no matter the time.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Safety First:</span>
+                            Verified drivers, in-app SOS, and real-time location sharing.</p>
+                            <div className=' w-[600px] h-[400px]'>
+                                <Image className='h-full max-w-full rounded-lg' src={temp11} alt='Gallery image' />
+                            </div>
+
+
+
+
+                            {/* <span className=' flex flex-row gap-2 mt-4'></span> */}
+                        </div>
+
+                    </div>
+
                     <StatsSection />
 
 
