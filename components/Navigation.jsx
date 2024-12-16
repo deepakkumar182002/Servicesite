@@ -39,8 +39,8 @@ function Navigation() {
     <>
     
       <nav className="relative border-gray-200 w-full border-b py-3 md:bg-white bg-gray-100 z-50  bg-inherit  border-b-default border-solid border-prime-gray-200 ">
-        <div className="container mx-auto ">
-          <div className="w-full flex  flex-col lg:flex-row px-4">
+        <div className="container mx-auto">
+          <div className="md:w-full flex  flex-col lg:flex-row px-4">
             <div className=" flex justify-between  lg:flex-row">
               <Link href="/" className="flex items-center">
                 <h2 className='text-3xl font-bold'><Image src={logo} height={120} width={120} alt="" /></h2>
@@ -60,7 +60,7 @@ function Navigation() {
                   <Link href="/" className="flex items-center justify-between text-gray-500 text-sm text-center lg:text-base font-medium transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left m-auto lg:m-0 hover:text-red-300 focus:text-red-400 disabled:text-black/30 dark:text-neutral-600 dark:hover:text-red-400 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-red-400/90 dark:[&.active]:text-zinc-400">Home</Link>
                 </li>
                 <li>
-                  <Link href="/About" className="flex items-center justify-between text-gray-500 text-sm text-center lg:text-base font-medium transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left m-auto lg:m-0 hover:text-red-300 focus:text-red-400 disabled:text-black/30 dark:text-neutral-600 dark:hover:text-red-400 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-red-400/90 dark:[&.active]:text-zinc-400">About us</Link>
+                  <Link href="/About" className="flex items-center justify-between text-gray-500 text-sm text-center lg:text-base font-medium transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left m-auto lg:m-0 hover:text-red-300 focus:text-red-400 disabled:text-black/30 dark:text-neutral-600 dark:hover:text-red-400 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-red-400/90 dark:[&.active]:text-zinc-400">About Us</Link>
                 </li>
                 <li>
                   <Link href="/Safety" className="flex items-center justify-between text-gray-500 text-sm text-center lg:text-base font-medium transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left m-auto lg:m-0 hover:text-red-300 focus:text-red-400 disabled:text-black/30 dark:text-neutral-600 dark:hover:text-red-400 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-red-400/90 dark:[&.active]:text-zinc-400">Safety</Link>
@@ -193,11 +193,10 @@ function Navigation() {
                   <Link href="/" className="flex items-center justify-between text-gray-500 text-sm text-center lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 lg:mb-0 mr-auto lg:text-left m-auto lg:m-0">Features</Link>
                 </li>
               </ul>
-            </div>
               <div className="flex flex-col lg:flex-row md:w-64  lg:items-center gap-4 ml-auto justify-center">
                 <Link href="/" className="bg-red-500 text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-red-400 hover:text-white-500">Download App</Link>
-                {/* <button className="bg-indigo-600 text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm lg:ml-5 hover:bg-indigo-700"> Sign up </button> */}
               </div>
+            </div>
           </div>
         </div>
       </nav>

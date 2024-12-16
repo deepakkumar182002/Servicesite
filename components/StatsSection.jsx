@@ -46,6 +46,14 @@ const StatsSection = () => {
             Our presence in the country has changed the concept of intra-city travel and made last-mile connectivity affordable for all.
             </p>
           </div>
+          {/* <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl drop-shadow-lg font-extrabold leading-9 text-gray-black text-black sm:text-4xl sm:leading-10">
+            What Our Riders Say
+            </h2>
+            <p className="mt-3 text-xl leading-7 text-black sm:mt-4">
+            Our presence in the country has changed the concept of intra-city travel and made last-mile connectivity affordable for all.
+            </p>
+          </div> */}
         </div>
         <div className="pb-12 mt-10 bg-gray-50 dark:bg-white sm:pb-16">
           <div className="relative">

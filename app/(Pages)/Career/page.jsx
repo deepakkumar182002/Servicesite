@@ -16,7 +16,7 @@ const Career = () => {
            
             <div className="mt-2">
            <span className="font-bold text-red-400 text-4xl">Be a part of our team.</span> <br />
-           <div className="mt-4">We are so glad you want to join us in exploring a world of endless opportunities at <span className="font-bold">RIDEWAVES</span>.
+           <div className="mt-4">We are so glad you want to join us in exploring a world of endless opportunities at <span className="font-bold text-red-400">RideWaves</span>.
           </div>    
             </div>
             <button type="button" className="bg-red-400 px-6 text-white float-left mt-6 py-2">View Job</button>

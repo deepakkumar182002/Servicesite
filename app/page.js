@@ -33,7 +33,7 @@ export default function Home() {
         }}
       >
         <a
-          href="https://wa.me/8218011747?text=Hello, How can I help you?"
+          href="https://wa.me/8923798699?text=Hello, How can I help you?"
           target="_blank"
           rel="noreferrer"
         >

@@ -63,7 +63,7 @@ function Footer() {
 
                             
                             <div className="text-sm flex flex-row"><FaPhoneAlt className="text-xl text-blue-500" /><span className="pl-2"> +91 8923798699</span></div>            
-                            <div className="text-sm flex flex-row mt-2"><FaEnvelope className="text-xl text-red-500" /><span className="pl-2">contact@ridewaves.com</span></div>
+                            <div className="text-sm flex flex-row mt-2"><FaEnvelope className="text-xl text-red-500" /><span className="pl-2">contact@ridewaves.in</span></div>
                             <div className="text-sm flex flex-row mt-2">
                             <div className="text-sm text-wrap flex-row flex"><FaMapMarkerAlt className="md:text-3xl text-2xl text-green-500" />
                             <span className="pl-2 text-start">Diamond Carpate, Near Fatehabad Rd, Agra, Uttar Pradesh-(282001)</span></div>
