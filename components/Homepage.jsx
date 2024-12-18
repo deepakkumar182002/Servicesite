@@ -32,7 +32,7 @@ export default function Homepage() {
     }
     return (
         <>
-            <div className='md:px-16 flex items-center bg-fixed flex-col justify-center h-full'>
+            <div className='md:px-16 p-4 flex items-center bg-fixed flex-col justify-center h-full'>
                 {/* <Image src={temp14}  alt='' className='' /> */}
                 <div className='container mx-auto bg-white w-2/2 md:p-4  relative'>
                     {/* form  */}
