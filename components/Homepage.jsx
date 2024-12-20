@@ -152,24 +152,21 @@ export default function Homepage() {
                     <hr />
                     {/* <Image src={temp} alt='' className='my-2' /> */}
                     <h2 className='text-4xl lg:text-5xl font-bold my-16 text-center  drop-shadow-lg'>The Future of Travel is Here!</h2>
-                    <div className='md:columns-2'>
-                        <div className=''>
-                            <Image className='h-full max-w-full rounded-lg' src={temp7} alt='Gallery image' />
+                    <div className='flex flex-col lg:flex-row items-center'>
+                        <div className=' items-center'>
+                            <Image className='rounded-lg' src={temp7} height={600} width={900} alt='Gallery image' />
                         </div>
-                        <div className="pt-14 w-full">
+                        <div className="pt-14 w-full text-wrap">
                             <p className='text-xl p-2'><span className=' font-bold text-2xl  text-red-400'>RideWaves</span> is designed to make navigating your city simple and stress-free.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Seamless Connectivity:</span>Travel between home, work, and leisure spots effortlessly.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Flexible Options: </span>Choose from economy rides, premium services, or shared commutes.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Quick & Reliable Service: </span>Our fleet and AI-driven routing ensure you’re always on time.</p>
-
-                            <span className=' flex flex-row gap-2 mt-4'></span>
                         </div>
 
                     </div>
                     <hr />
-                    <div className='md:columns-2'>
-
-                        <div className="pt-14">
+                    <div className='flex flex-col lg:flex-row items-center'>
+                        <div className="pt-14 w-full text-wrap">
                             <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>  Why Choose RideWaves?</span></p>
                             <p className='text-xl p-2'><span className='font-bold'>Real-Time Tracking:</span> Stay updated with your ride’s location.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Diverse Vehicle Choices:</span>
@@ -178,18 +175,18 @@ export default function Homepage() {
                                 Your reliable partner, no matter the time.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Safety First:</span>
                                 Verified drivers, in-app SOS, and real-time location sharing.</p>
-                            <div className=''>
-                                <Image className='h-full max-w-full rounded-lg' src={temp11} alt='Gallery image' />
-                            </div>
                         </div>
+                            <div className='items-center'>
+                                <Image className='rounded-lg' src={temp11} height={600} width={900} alt='Gallery image' />
+                            </div>
 
                     </div>
                     <hr />
-                    <div className='md:columns-2'>
-                        <div className=''>
-                            <Image className='h-full max-w-full rounded-lg' src={temp15} alt='Gallery image' />
+                    <div className='flex flex-col lg:flex-row items-center'>
+                        <div className='items-center'>
+                            <Image className='h-full max-w-full rounded-lg' src={temp15} height={600} width={900} alt='Gallery image' />
                         </div>
-                        <div className="md:pt-36">
+                        <div className="pt-14 w-full text-wrap">
                             <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>Drive with RideWaves – Earn on Your Terms</span></p>
                             <p className='text-xl p-2'><span className='font-bold'>Flexible Hours:</span> Work when you want.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Guaranteed Earnings:</span> Competitive rates with bonus incentives.</p>

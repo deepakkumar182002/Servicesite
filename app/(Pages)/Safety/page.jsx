@@ -10,16 +10,13 @@ const Safety = () => {
       <div className="bg-white text-black min-h-screen p-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 justify-around">
           {/* Hero Section */}
-          <div className="text-center mb-10 w-2/4">
 
-            <div className="text-lg text-wrap text-start">
+          <div className="text-lg text-wrap text-center lg:text-start flex flex-col lg:flex-row justify-between">
 
-              <div className="mt-2">
-                At <span className="font-bold text-red-400">RideWaves</span>, your safety is our top priority. <br />
-                We are committed to providing you with a secure and comfortable travel experience.
-                <br />
-                <h1 className=" mt-4">Here’s how we ensure your safety during every ride:</h1>
-              </div>
+            <div className="mt-2 text-center lg:text-start">At <span className="font-bold text-red-400">RideWaves</span>, your safety is our top priority. <br />
+              We are committed to providing you with a secure and comfortable travel experience.
+              <br />
+              <h1 className=" mt-4">Here’s how we ensure your safety during every ride:</h1>
               <ul className="mt-2">
                 <li className="pt-4">- Professional Drivers</li>
                 <li className="pt-4">- Well-Maintained Vehicles</li>
@@ -29,20 +26,19 @@ const Safety = () => {
                 <li className="pt-4">- Feedback and Improvement</li>
 
               </ul>
-
             </div>
 
-          </div>
+            {/* Image Section */}
+            <div className="flex justify-center mb-8">
+              <Image
+                src={temp6} // Replace with a real image path
+                alt="Random Service"
+                height={400}
+                width={600}
+                className="rounded-lg shadow-md"
+              />
+            </div>
 
-          {/* Image Section */}
-          <div className="flex justify-center mb-8">
-            <Image
-              src={temp6} // Replace with a real image path
-              alt="Random Service"
-              height={400}
-              width={600}
-              className="rounded-lg shadow-md"
-            />
           </div>
         </div>
         <hr />
@@ -53,8 +49,8 @@ const Safety = () => {
         </p>
 
 
-        <p className="flex justify-center text-2xl mt-10"> Ready to book your next ride? </p>
-        <p className="flex justify-center text-2xl mt-4">Contact us today and let us take you wherever you need to go!</p>
+        <p className="flex text-center justify-center text-2xl mt-10"> Ready to book your next ride? </p>
+        <p className="flex text-center justify-center text-2xl mt-4">Contact us today and let us take you wherever you need to go!</p>
       </div>
       <Footer />
     </>
