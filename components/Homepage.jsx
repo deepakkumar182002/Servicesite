@@ -37,7 +37,7 @@ export default function Homepage() {
                 <div className='container mx-auto bg-white w-2/2 md:p-4  relative'>
                     {/* form  */}
 
-                    <div className='justify-between grid  md:grid-cols-2 md:gap-4 gap-2'>
+                    <div className='justify-between grid   md:grid-cols-2 md:gap-4 gap-2'>
                         {/* <div className='max-w-md bg-white overflow-hidden w-full'>
                             <div className='md:text-2xl md:py-4 py-2 px-6 bg-gray-900 text-white text-start md:text-center font-bold uppercase'>
                                 Book an Appointment
@@ -133,23 +133,25 @@ export default function Homepage() {
 
                             </form>
                         </div> */}
-                        <span className=''>
-                            <h1 className='md:text-5xl text-2xl font-bold mt-16 text-nowrap '><span className='text-red-400 font-bold mt-2 tracking-tight text-nowrap'>RideWaves</span>: Your Travel Partner
-                            </h1>
-                            {/* <h1 className='text-red-400 text-[60px] font-bold mt-2 tracking-tight'>RIDEWAVES</h1> */}
-                            <p className='text-[21px] p-2 mt-12 text-center text-black'>&#8220;We believe that travel is not just a journey but an experience. With years of expertise, we curate unforgettable adventures tailored just for you.&#8220;</p>
-                            <span className=' flex flex-row gap-2 mt-16 justify-center'>
-                                <button type='button' className='md:px-10 py-2 text-xl font-bold bg-red-400 text-white'>Download RideWaves</button>
-                                <button type='button' className='ml-4 md:px-12 text-xl font-bold py-2 border-[1px] border-red-500/75 '>Sing-up For Driver</button>
-                            </span>
-                        </span>
-                        <span className='ml-20'>
+                        <div className=' text-wrap flex flex-col '>
+
+                                <h1 className='text-4xl lg:text-5xl font-bold mt-16 text-wrap text-center'><span className='text-red-400 font-bold mt-2 tracking-tight text-nowrap'>RideWaves</span>: Your Travel Partner
+                                </h1>
+                                {/* <h1 className='text-red-400 text-[60px] font-bold mt-2 tracking-tight'>RIDEWAVES</h1> */}
+                                <p className='text-[21px] p-2 mt-12 text-center text-black'>&#8220;We believe that travel is not just a journey but an experience. With years of expertise, we curate unforgettable adventures tailored just for you.&#8220;</p>
+                                <div className=' flex flex-row gap-2 mt-16 justify-center'>
+                                    <button type='button' className='md:px-10 py-2 p-2 text-xl font-bold bg-red-400 text-white'>Download RideWaves</button>
+                                    <button type='button' className='ml-4 md:px-12 p-2 text-xl font-bold py-2 border-[1px] border-red-500/75 '>Sing-up For Driver</button>
+                                </div>
+                        </div>
+                        <div className='ml-20 justify-center my-auto'>
                             <Image src={temp8} alt='' height={400} width={600} className='' />
-                        </span>
+                        </div>
                     </div>
+                    <br />
                     <hr />
                     {/* <Image src={temp} alt='' className='my-2' /> */}
-                    <h2 className='text-sm md:text-4xl font-bold my-16 text-center drop-shadow-lg'>The Future of Travel is Here!</h2>
+                    <h2 className='text-4xl lg:text-5xl font-bold my-16 text-center  drop-shadow-lg'>The Future of Travel is Here!</h2>
                     <div className='md:columns-2'>
                         <div className=''>
                             <Image className='h-full max-w-full rounded-lg' src={temp7} alt='Gallery image' />
@@ -166,16 +168,16 @@ export default function Homepage() {
                     </div>
                     <hr />
                     <div className='md:columns-2'>
-                    
+
                         <div className="pt-14">
                             <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>  Why Choose RideWaves?</span></p>
                             <p className='text-xl p-2'><span className='font-bold'>Real-Time Tracking:</span> Stay updated with your ride’s location.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Diverse Vehicle Choices:</span>
-                            From budget-friendly to premium, pick what suits you best.</p>
+                                From budget-friendly to premium, pick what suits you best.</p>
                             <p className='text-xl p-2'><span className='font-bold'>24/7 Availability: </span>
-                            Your reliable partner, no matter the time.</p>
+                                Your reliable partner, no matter the time.</p>
                             <p className='text-xl p-2'><span className='font-bold'>Safety First:</span>
-                            Verified drivers, in-app SOS, and real-time location sharing.</p>
+                                Verified drivers, in-app SOS, and real-time location sharing.</p>
                             <div className=''>
                                 <Image className='h-full max-w-full rounded-lg' src={temp11} alt='Gallery image' />
                             </div>
@@ -184,14 +186,14 @@ export default function Homepage() {
                     </div>
                     <hr />
                     <div className='md:columns-2'>
-                            <div className=''>
-                                <Image className='h-full max-w-full rounded-lg' src={temp15} alt='Gallery image' />
-                            </div>
+                        <div className=''>
+                            <Image className='h-full max-w-full rounded-lg' src={temp15} alt='Gallery image' />
+                        </div>
                         <div className="md:pt-36">
-                        <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>Drive with RideWaves – Earn on Your Terms</span></p>
-                        <p className='text-xl p-2'><span className='font-bold'>Flexible Hours:</span> Work when you want.</p>
-                        <p className='text-xl p-2'><span className='font-bold'>Guaranteed Earnings:</span> Competitive rates with bonus incentives.</p>
-                        <p className='text-xl p-2'><span className='font-bold'>Support at Every Step:</span> 24/7 driver support and training.</p>
+                            <p className='text-xl p-2'><span className=' font-bold text-3xl  text-red-400'>Drive with RideWaves – Earn on Your Terms</span></p>
+                            <p className='text-xl p-2'><span className='font-bold'>Flexible Hours:</span> Work when you want.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Guaranteed Earnings:</span> Competitive rates with bonus incentives.</p>
+                            <p className='text-xl p-2'><span className='font-bold'>Support at Every Step:</span> 24/7 driver support and training.</p>
                         </div>
                     </div>
 
